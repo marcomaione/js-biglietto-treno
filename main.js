@@ -15,5 +15,11 @@ console.log(eta);
 if (eta < 18 ) {
     let discount = price / 20 * 100 - price;
     document.getElementById("finalPrice").innerHTML = discount + "euro";
+    price.toFixed(2)
 }
 
+else if ( eta > 65) {
+    let senior = price / 40 * 100 - price;
+    document.getElementById("finalPrice").innerHTML = senior + "euro";
+    price.toFixed(2)
+}
